@@ -13,8 +13,8 @@ var blockImageObject= "";
 function new_image(getImage)
 {
 	// para enviar imagens
-	fabric.Image.fromURL(get_image, function(Img) {
-		block_image_object = Img;
+	fabric.Image.fromURL(getImage, function(Img) {
+		blockImageObject = Img;
 
 		block_image_object.scaleToWidth(block_image_width);
 		block_image_object.scaleToHeight(block_image_height);
